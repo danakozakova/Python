@@ -19,3 +19,13 @@ PYTHON 2 - Práca s textovými súbormi
 
 Zoptimalizovanie výsledkov pre veľké / malé písmená.
 Zobrazenie frekvencie v histograme cez plotly.express
+
+PYTHON 3 - Práca s JSON súborom
+1. Načítanie JSON súboru
+•  pri načítaní sa automaticky vytvorí premenná typu dict alebo list - podľa toho, koľko objektov obsahuje JSON súbor
+2. Príkaz pprint
+• na prehľadné zobrazenie obsahu slovníka
+• formátuje, odsadzuje, zalamuje riadky
+3. Konverzia do pandas.DataFrame
+•  ak je jeden objekt (dictionary), zabaliť do listu
+• normalizovanie s nastavením separatora na "_", nenechať defaultnú bodku
