@@ -50,3 +50,13 @@ PYTHON 5 - CSV súbory / PYTHON 6 - Excelovské súbory
 1. Načítanie CSV súboru
 2. Analýza Dataframu
 3. Uloženie do CSV - s alebo bez indexov
+
+PYTHON 7 - Dáta z HTML
+1. Stiahnutie dát cez HTTP request
+2. Knižnica BeautifulSoup
+•  spracovanie requestu
+•  spracovanie contentu - dictionary z dát
+•  ipywidgets Dropwdown
+3. Dočasné súbory
+•  knižnica tempfile - vytvorenie / zápis do / výpis z dočasného súboru
+
