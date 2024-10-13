@@ -44,4 +44,10 @@ Ak je všetko v poriadku (status_code == 200), môžeme obsah odpovede (JSON sú
 3. Výber údajov z listu / dataframu🎯
 •  For cyklus pre list
 •  Boolean indexing: Efektívnejší pre dataframe
-•  Metóda query(): výhodnejšie pre zložitejšie podmienky výberu 
+•  Metóda query(): výhodnejšie pre zložitejšie podmienky výberu
+
+PYTHON 5 - CSV súbory
+1. Načítanie CSV súboru
+2. Analýza Dataframu
+3. Uloženie do CSV - s alebo bez indexov
+
