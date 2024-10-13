@@ -73,4 +73,15 @@ Ak je všetko v poriadku (status_code == 200), môžeme obsah odpovede (JSON sú
 - sqlalchemy a pandas na prácu s databázou objektovo-relačným spôsobom
 - create_engine - objekt engine na pripojenie k DB
 
-PYTHON 09
+[PYTHON 09](https://github.com/danakozakova/Python/blob/main/PYTH09-Numpy.ipynb) - Numpy
+1. numpy polia
+- automatické konverzie
+- defaultné polia
+2. Výkonnosť
+- magická funkcia %timeit
+- porovnanie np.array a listu
+- použitie funkcie na np.array
+3. Numba
+  - @jit funkcie
+  - výkonnnost numba
+ 4. Ďalšie operácie s numpy
