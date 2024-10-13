@@ -1,4 +1,4 @@
-[PYTHON 1](https://github.com/danakozakova/dana-python/blob/main/PYTH1-Random_Filtering_Dictionary.ipynb) - Generovanie náhodných čísel, filtrovanie zoznamu, dictionaries – triedenie a výpis 
+[PYTHON 01](https://github.com/danakozakova/dana-python/blob/main/PYTH01-Random_Filtering_Dictionary.ipynb) - Generovanie náhodných čísel, filtrovanie zoznamu, dictionaries – triedenie a výpis 
 1.	Generovanie náhodných čísel a opakovateľnosť výsledkov pomocou random.seed()
 2.	Filtrovanie zoznamu: 
 •	for cyklus 
@@ -6,7 +6,7 @@
 •	funkcia filter() s lambda výrazom -	objekt typu filter, "lazy", pri konvertovaní do zoznamu sa spotrebuje
 3.	vypisovanie a triedenie dictionary
 
-[PYTHON 2](https://github.com/danakozakova/Python/blob/main/PYTH2-Text-files.ipynb) - Práca s textovými súbormi
+[PYTHON 02](https://github.com/danakozakova/Python/blob/main/PYTH02-Text-files.ipynb) - Práca s textovými súbormi
 1. Otvorenie a zatvorenie súboru
 2. Prečítanie a spracovanie obsahu textového súboru:
 • spracovanie riadkov vo for cykle
@@ -20,7 +20,7 @@
 Zoptimalizovanie výsledkov pre veľké / malé písmená.
 Zobrazenie frekvencie v histograme cez plotly.express
 
-[PYTHON 3](https://github.com/danakozakova/Python/blob/main/PYTH3-JSON_file.ipynb) - Práca s JSON súborom
+[PYTHON 03](https://github.com/danakozakova/Python/blob/main/PYTH03-JSON_file.ipynb) - Práca s JSON súborom
 1. Načítanie JSON súboru
 •  pri načítaní sa automaticky vytvorí premenná typu dict alebo list - podľa toho, koľko objektov obsahuje JSON súbor
 2. Príkaz pprint
@@ -30,7 +30,7 @@ Zobrazenie frekvencie v histograme cez plotly.express
 •  ak je jeden objekt (dictionary), zabaliť do listu
 • normalizovanie s nastavením separatora na "_", nenechať defaultnú bodku
 
-[PYTHON 4](https://github.com/danakozakova/Python/blob/main/PYTH4-Rest_API.ipynb) - Rest API
+[PYTHON 04](https://github.com/danakozakova/Python/blob/main/PYTH04-Rest_API.ipynb) - Rest API
 1. Získanie dát z REST API
 •  knižnica requests: Funkcia requests.get() odošle HTTP GET požiadavku na zadanú URL adresu a vráti nám odpoveď zo servera.
 •  Odpoveď obsahuje:
@@ -46,12 +46,12 @@ Ak je všetko v poriadku (status_code == 200), môžeme obsah odpovede (JSON sú
 •  Boolean indexing: Efektívnejší pre dataframe
 •  Metóda query(): výhodnejšie pre zložitejšie podmienky výberu
 
-[PYTHON 5](https://github.com/danakozakova/Python/blob/main/PYTH5-CSV_file.ipynb) - CSV súbory / [PYTHON 6](https://github.com/danakozakova/Python/blob/main/PYTH6-XLXS.ipynb) - Excelovské súbory
+[PYTHON 05](https://github.com/danakozakova/Python/blob/main/PYTH05-CSV_file.ipynb) - CSV súbory / [PYTHON 06](https://github.com/danakozakova/Python/blob/main/PYTH06-XLXS.ipynb) - Excelovské súbory
 1. Načítanie CSV súboru
 2. Analýza Dataframu
 3. Uloženie do CSV - s alebo bez indexov
 
-[PYTHON 7](https://github.com/danakozakova/Python/blob/main/PYTH7-HTML.ipynb) - Dáta z HTML
+[PYTHON 07](https://github.com/danakozakova/Python/blob/main/PYTH07-HTML.ipynb) - Dáta z HTML
 1. Stiahnutie dát cez HTTP request
 2. Knižnica BeautifulSoup
 •  spracovanie requestu
@@ -60,3 +60,17 @@ Ak je všetko v poriadku (status_code == 200), môžeme obsah odpovede (JSON sú
 3. Dočasné súbory
 •  knižnica tempfile - vytvorenie / zápis do / výpis z dočasného súboru
 
+[PYTHON 08](https://github.com/danakozakova/Python/blob/main/PYTH08-RDBMS.ipynb) - RDBMS
+1. MYSQL DB
+- Pripojenie k mysql databáze
+- SQL dopyty cez rozšírenie load_ext sql
+- overenie DB, dostupné tabuľky
+- %%sql na vykonanie viacerých SQL príkazov
+- create schema / create table
+2. JDBC/ODBC pripojenie
+-  getpass na bezpečné zadanie hesla bez zobrazenia na obrazovke
+3. ORM s Pandas/SQLAlchemy:
+- sqlalchemy a pandas na prácu s databázou objektovo-relačným spôsobom
+- create_engine - objekt engine na pripojenie k DB
+
+PYTHON 09
