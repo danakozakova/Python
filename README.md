@@ -1,4 +1,4 @@
-[PYTHON 1]([https://github.com/danakozakova/dana-python/blob/main/PYTH1-Random_Filtering_Dictionary.ipynb](https://github.com/danakozakova/dana-python/blob/main/PYTH1-Random_Filtering_Dictionary.ipynb)) - Generovanie náhodných čísel, filtrovanie zoznamu, dictionaries – triedenie a výpis 
+[PYTHON 1](https://github.com/danakozakova/dana-python/blob/main/PYTH1-Random_Filtering_Dictionary.ipynb) - Generovanie náhodných čísel, filtrovanie zoznamu, dictionaries – triedenie a výpis 
 1.	Generovanie náhodných čísel a opakovateľnosť výsledkov pomocou random.seed()
 2.	Filtrovanie zoznamu: 
 •	for cyklus 
