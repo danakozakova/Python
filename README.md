@@ -46,8 +46,7 @@ Ak je všetko v poriadku (status_code == 200), môžeme obsah odpovede (JSON sú
 •  Boolean indexing: Efektívnejší pre dataframe
 •  Metóda query(): výhodnejšie pre zložitejšie podmienky výberu
 
-PYTHON 5 - CSV súbory
+PYTHON 5 - CSV súbory / PYTHON 6 - Excelovské súbory
 1. Načítanie CSV súboru
 2. Analýza Dataframu
 3. Uloženie do CSV - s alebo bez indexov
-
