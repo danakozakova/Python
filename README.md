@@ -1,3 +1,4 @@
+**Python - Dátová analýza**
 [PYTHON 01](https://github.com/danakozakova/dana-python/blob/main/PYTH01-Random_Filtering_Dictionary.ipynb) - Generovanie náhodných čísel, filtrovanie zoznamu, dictionaries – triedenie a výpis 
 1.	Generovanie náhodných čísel a opakovateľnosť výsledkov pomocou random.seed()
 2.	Filtrovanie zoznamu: 
