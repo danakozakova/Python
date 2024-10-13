@@ -6,7 +6,7 @@
 •	funkcia filter() s lambda výrazom -	objekt typu filter, "lazy", pri konvertovaní do zoznamu sa spotrebuje
 3.	vypisovanie a triedenie dictionary
 
-PYTHON 2 - Práca s textovými súbormi
+[PYTHON 2](https://github.com/danakozakova/Python/blob/main/PYTH2-Text-files.ipynb) - Práca s textovými súbormi
 1. Otvorenie a zatvorenie súboru
 2. Prečítanie a spracovanie obsahu textového súboru:
 • spracovanie riadkov vo for cykle
@@ -20,7 +20,7 @@ PYTHON 2 - Práca s textovými súbormi
 Zoptimalizovanie výsledkov pre veľké / malé písmená.
 Zobrazenie frekvencie v histograme cez plotly.express
 
-PYTHON 3 - Práca s JSON súborom
+[PYTHON 3](https://github.com/danakozakova/Python/blob/main/PYTH3-JSON_file.ipynb) - Práca s JSON súborom
 1. Načítanie JSON súboru
 •  pri načítaní sa automaticky vytvorí premenná typu dict alebo list - podľa toho, koľko objektov obsahuje JSON súbor
 2. Príkaz pprint
@@ -30,7 +30,7 @@ PYTHON 3 - Práca s JSON súborom
 •  ak je jeden objekt (dictionary), zabaliť do listu
 • normalizovanie s nastavením separatora na "_", nenechať defaultnú bodku
 
-PYTHON 4 - Rest API
+[PYTHON 4](https://github.com/danakozakova/Python/blob/main/PYTH4-Rest_API.ipynb) - Rest API
 1. Získanie dát z REST API
 •  knižnica requests: Funkcia requests.get() odošle HTTP GET požiadavku na zadanú URL adresu a vráti nám odpoveď zo servera.
 •  Odpoveď obsahuje:
@@ -46,12 +46,12 @@ Ak je všetko v poriadku (status_code == 200), môžeme obsah odpovede (JSON sú
 •  Boolean indexing: Efektívnejší pre dataframe
 •  Metóda query(): výhodnejšie pre zložitejšie podmienky výberu
 
-PYTHON 5 - CSV súbory / PYTHON 6 - Excelovské súbory
+[PYTHON 5](https://github.com/danakozakova/Python/blob/main/PYTH5-CSV_file.ipynb) - CSV súbory / [PYTHON 6](https://github.com/danakozakova/Python/blob/main/PYTH6-XLXS.ipynb) - Excelovské súbory
 1. Načítanie CSV súboru
 2. Analýza Dataframu
 3. Uloženie do CSV - s alebo bez indexov
 
-PYTHON 7 - Dáta z HTML
+[PYTHON 7](https://github.com/danakozakova/Python/blob/main/PYTH7-HTML.ipynb) - Dáta z HTML
 1. Stiahnutie dát cez HTTP request
 2. Knižnica BeautifulSoup
 •  spracovanie requestu
